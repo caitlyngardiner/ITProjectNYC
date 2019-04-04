@@ -1,3 +1,0 @@
-//Yelp API
-GET https://api.yelp.com/v3/businesses/search?term=burgers&location=new york city
-Authorization Token: 8TRGKIFbffLmxYuN1j2hmz2VeZHOZcWm-c2kWBoY_SrdUku4dZ_YFRKKIi-1AsiZ-frrcV-y7xD77gkAp_aAp5Y4wecb8V7nrHPAaD-WBbA5uU8PCJxftbHO8CWhXHYx
