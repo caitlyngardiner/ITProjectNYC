@@ -14,29 +14,28 @@ $(document).ready(function() {
             output+='<div class = "container"'
           }
           if(i % 3 == 0){
+            
           output +='<div class = "row">'
           output +='<div class = "column">'
           output += '<a href="' + item.url + '">';
-          output += '<img title="' + item.name +'"class = "image"'+ 'src="' + item.image_url;
+          output += '<img id = "myimage" title="' + item.name +'"class = "image"'+ 'src="' + item.image_url;
           output +=  '" />';
           output += '</a>';
-          output+= '<div class="overlay"><h4>'+item.name+'</h4><h3>Rating: '+item.rating+' stars</h3><h3>Price: '+item.price+' </h3></div>'
-          output+='</div>'
+          output+= '<h4>'+item.name+'</h4><h3>Rating: '+item.rating+' stars</h3><h3>Price: '+item.price+' </h3></div>'
 
           }else{
            output +='<div class = "column">'
           output += '<a href="' + item.url + '">';
-          output += '<img title="' + item.name +'"class = "image"'+ 'src="' + item.image_url;
+          output += '<img id = "myimage" title="' + item.name +'"class = "image"'+ 'src="' + item.image_url;
           output +=  '" />';
           output += '</a>';
-          output+= '<div class="overlay"><h4>'+item.name+'</h4><h3>Rating: '+item.rating+' stars</h3><h3>Price: '+item.price+'</h3></div>'
-          output+='</div>'
+          output+= '<h4>'+item.name+'</h4><h3>Rating: '+item.rating+' stars</h3><h3>Price: '+item.price+'</h3></div>'
           if((i+1)%3 == 0){
-            output+='</div>'
+            /*output+='</div>'*/
           }
           }
         });
-        output+='</div></div>'
+        output+='</div>'
         $('.eatsoutput').html(output);
       }, error: function(msg) {
               // there was a problem

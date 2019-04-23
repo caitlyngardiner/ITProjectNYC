@@ -1,0 +1,51 @@
+{
+    "items": [
+        {
+            "name": "See a Broadway Show",
+            "image_url": "https://media.timeout.com/images/105246204/750/562/image.jpg",
+            "description": "Visiting the Great White Way means attending one of 41 large theaters concentrated near Times Square."
+        },
+
+        {
+            "name": "Chill out on The High Line",
+            "image_url": "https://media.timeout.com/images/105312019/750/562/image.jpg",
+            "description": "The High Line is a 1.45-mile-long elevated linear park, greenway and rail trail created on a former New York Central Railroad spur on the west side of Manhattan in New York City"
+        },
+        {
+            "name": "Laugh at the Upright Citizens Brigade Theatre",
+            "image_url": "https://media.timeout.com/images/105304716/380/285/image.jpg",
+            "description": "The Upright Citizens Brigade Theatre is an American improvisational theatre and training center"
+        },
+        {
+            "name": "Museum of Modern Art",
+            "image_url": "https://media.timeout.com/images/104677569/380/285/image.jpg",
+            "description": "MoMA plays a major role in developing and collecting modernist art, and is often identified as one of the largest and most influential museums of modern art in the world"
+        },
+        {
+            "name": "Nitehawk Cinema",
+            "image_url": "https://media.timeout.com/images/105312021/380/285/image.jpg",
+            "description": "Movies screened with global fare & craft cocktails served at patrons' seats"
+        },
+        {
+            "name": "Lola Star's Dreamland Roller Disco",
+            "image_url": "https://media.timeout.com/images/105390629/380/285/image.jpg",
+            "description": "Fashion your best pop star costume and head to Lola Star’s themed roller-skating parties."
+        },
+        {
+            "name": "Deno's Wonder Wheel Amusement Park",
+            "image_url": "https://media.timeout.com/images/102294943/380/285/image.jpg",
+            "description":"A Coney Island go-to since 1920 that boasts sweet oceanside views."
+        },
+        {
+            "name": "Tenement Museum",
+            "image_url": "https://media.timeout.com/images/105312023/380/285/image.jpg",
+            "description":"A series of restored tenement apartments on the Lower East Side that show visitors the day-to-day lives of past immigrant tenants. "
+        },
+        {
+            "name": "American Museum of Natural History",
+            "image_url": "https://media.timeout.com/images/100112797/380/285/image.jpg",
+            "description": "An expertly curated, 149-year-old institution that fills visitors of all ages with a curiosity about the universe."
+        }
+
+    ]
+}
