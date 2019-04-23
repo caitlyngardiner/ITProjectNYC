@@ -420,47 +420,6 @@
             "distance": 2428.0392489129867
         },
         {
-            "id": "SsPZif4CIL85s318kxL7vA",
-            "alias": "ashland-brooklyn",
-            "name": "Ashland",
-            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Vue9tBFL0mdw18ruP1XpWA/o.jpg",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/ashland-brooklyn?adjust_creative=65V52D5Pl9DW8TdUw062EQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=65V52D5Pl9DW8TdUw062EQ",
-            "review_count": 6,
-            "categories": [
-                {
-                    "alias": "southern",
-                    "title": "Southern"
-                },
-                {
-                    "alias": "newamerican",
-                    "title": "American (New)"
-                }
-            ],
-            "rating": 4.5,
-            "coordinates": {
-                "latitude": 40.6958,
-                "longitude": -73.98378
-            },
-            "transactions": [],
-            "location": {
-                "address1": "156 Tilary St",
-                "address2": null,
-                "address3": "",
-                "city": "Brooklyn",
-                "zip_code": "11201",
-                "country": "US",
-                "state": "NY",
-                "display_address": [
-                    "156 Tilary St",
-                    "Brooklyn, NY 11201"
-                ]
-            },
-            "phone": "+17188758800",
-            "display_phone": "(718) 875-8800",
-            "distance": 1406.1119143868273
-        },
-        {
             "id": "zQkjDxo8oDVGVj9cpTpUig",
             "alias": "habana-outpost-brooklyn",
             "name": "Habana Outpost",
