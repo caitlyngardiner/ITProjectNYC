@@ -107,6 +107,9 @@ img {
   text-align: center;
   padding-top: 0px;
 }
+h5{
+  font-size: 20px;
+}
 .column:hover .overlay{
   height: 100%;
   background-color: #C0C0C0;
