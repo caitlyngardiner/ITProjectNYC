@@ -37,6 +37,10 @@ body{
   opacity: 0.9;
   padding-bottom: 5px;
 }
+.allimages h2{
+  font-size: 50px;
+  margin-left: 380px;
+}
 
 /* Navbar links */
 .navbar a {
