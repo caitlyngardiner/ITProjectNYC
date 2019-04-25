@@ -2,9 +2,9 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Regular'), 
-       local('Roboto-Regular'), 
-       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+  src: local('Roboto Regular'),
+       local('Roboto-Regular'),
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff)
        format('woff');
 }
 body{
@@ -14,9 +14,8 @@ body{
     color: azure;
     background-attachment: fixed;
     font-family: Roboto;
-    
-}
 
+}
 
 .header h1{
     color: black;
@@ -31,12 +30,12 @@ body{
     font-size: 30px;
     padding-left: 80px;
     margin-top: 0;
-    padding-bottom: 100px;   
+    padding-bottom: 100px;
 }
 .pagetitle h3{
     color: azure;
     font-size: 80px;
-    text-align: center; 
+    text-align: center;
     padding-top: 10px;
 }
 
@@ -116,12 +115,9 @@ img {
   text-align: center;
   padding-top: 0px;
 }
-<<<<<<< HEAD
-=======
 h5{
   font-size: 20px;
 }
->>>>>>> ab41ce389f1ac05005f5d6b0b144938d52fed736
 .column:hover .overlay{
   height: 100%;
   background-color: #C0C0C0;
@@ -146,8 +142,8 @@ h5{
   width:1000px;
   margin:auto;
   color:snow;
-    
-  
+
+
 }
 
 
@@ -245,7 +241,7 @@ h5{
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 /*@media screen and (max-width: 500px) {
   .navbar a {
-     
+
     float: none;
     display: block;
   }
@@ -313,24 +309,24 @@ h5{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 div.wrap {
     width:870px;
     margin:auto;
     background-color: grey;
-    
+
 }
 .wrap {
     border: 1px solid black;
     opacity: 0.8;
-    
+
 }
 #info {
     width:770px;
@@ -339,7 +335,7 @@ div.wrap {
     text-align:justify;
     text-justify:inter-word;
     color:white;
-    
+
 }
 .eatsoutput {
     background-image: url(see.jpg);
@@ -349,7 +345,7 @@ div.wrap {
     width:1500px;
     margin:auto;
     color:snow;
-    
+
 }
 .seeoutput {
     background-image: url(ground.jpg);
@@ -367,3 +363,6 @@ div.wrap {
     margin:auto;
 }
 
+.toCenter {
+  margin: auto;
+}
