@@ -20,7 +20,7 @@ $(document).ready(function() {
           output += '<img id = "myimage" title="' + item.name +'"class = "image"'+ 'src="' + item.image_url;
           output +=  '" />';
           output += '</a>';
-          output+= '<h4>'+item.name+'</h4><h5>Description: '+item.description+' </h5></div>'
+          output+= '<h4>'+item.name+'</h4><h3>Location: '+item.location+' </h3><h5>Description: '+item.description+' </h5></div>'
 
           }else{
            output +='<div class = "column">'
@@ -28,7 +28,7 @@ $(document).ready(function() {
           output += '<img id = "myimage" title="' + item.name +'"class = "image"'+ 'src="' + item.image_url;
           output +=  '" />';
           output += '</a>';
-          output+= '<h4>'+item.name+'</h4><h5>Description: '+item.description+' </h5></div>'
+          output+= '<h4>'+item.name+'</h4><h3>Location: '+item.location+' </h3><h5>Description: '+item.description+' </h5></div>'
           if((i+1)%3 == 0){
             /*output+='</div>'*/
           }

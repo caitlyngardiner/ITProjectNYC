@@ -37,6 +37,10 @@ body{
   opacity: 0.9;
   padding-bottom: 5px;
 }
+.allimages h2{
+  font-size: 50px;
+  margin-left: 380px;
+}
 
 /* Navbar links */
 .navbar a {
@@ -107,6 +111,12 @@ img {
   text-align: center;
   padding-top: 0px;
 }
+<<<<<<< HEAD
+=======
+h5{
+  font-size: 20px;
+}
+>>>>>>> ab41ce389f1ac05005f5d6b0b144938d52fed736
 .column:hover .overlay{
   height: 100%;
   background-color: #C0C0C0;
