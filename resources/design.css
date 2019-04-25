@@ -1,22 +1,32 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), 
+       local('Roboto-Regular'), 
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+       format('woff');
+}
 body{
     height: 100vh;
     background-size: cover;
-    background-position: top left;
-    background-image: url(background2.jpg);
-    background-repeat: no-repeat;
-    background-size: 1600px 700px;
+    background-image: url(background1.jpg);
+    color: azure;
+    background-attachment: fixed;
+    font-family: Roboto;
+    
 }
 
 
 .header h1{
-    color: white;
+    color: black;
     font-family: 'Lobster', cursive;
     font-size: 100px;
     padding-left: 80px;
     margin-bottom: 0;
 }
 .header h2{
-    color: white;
+    color: black;
     font-family: 'Lobster', cursive;
     font-size: 30px;
     padding-left: 80px;
@@ -24,7 +34,7 @@ body{
     padding-bottom: 100px;   
 }
 .pagetitle h3{
-    color: white;
+    color: azure;
     font-size: 80px;
     text-align: center; 
     padding-top: 10px;
@@ -37,10 +47,7 @@ body{
   opacity: 0.9;
   padding-bottom: 5px;
 }
-.allimages h2{
-  font-size: 50px;
-  margin-left: 380px;
-}
+
 
 /* Navbar links */
 .navbar a {
@@ -100,13 +107,11 @@ img {
 }
 
  h4{
-  color: black;
   font-size: 30px;
   text-align: center;
   padding-bottom: 0px;
 }
  h3{
-  color: black;
   font-size: 20px;
   text-align: center;
   padding-top: 0px;
@@ -133,27 +138,27 @@ h5{
   text-align: center;
 }
 
-
-
 .allimages {
-  position: relative;
-  width: 50%;
+  background-image: url(see.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border: 1px solid black;
+  width:1000px;
+  margin:auto;
+  color:snow;
+    
+  
 }
 
-.myimage {
-  width: 100%;
-  height: auto;
-  display: block;
-  padding-left: 370px;
-  padding-bottom: 20px;
 
-}
+
 .mytext{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50em;
-  padding-left: 350px;
+    width:650px;
+    margin:auto;
+    font-family: Roboto;
+    text-align:justify;
+    text-justify:inter-word;
+
 
 }
 
@@ -249,7 +254,7 @@ h5{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 750px;
+  max-width: 770px;
   position: relative;
   margin: auto;
 }
@@ -259,36 +264,13 @@ h5{
   display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 60px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: azure;
+  font-family: Roboto;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -339,7 +321,49 @@ h5{
   from {opacity: .4} 
   to {opacity: 1}
 }
-.info {
-    max-width: 500px;
+div.wrap {
+    width:870px;
+    margin:auto;
+    background-color: grey;
+    
+}
+.wrap {
+    border: 1px solid black;
+    opacity: 0.8;
+    
+}
+#info {
+    width:770px;
+    margin:auto;
+    font-family: Roboto;
+    text-align:justify;
+    text-justify:inter-word;
+    color:white;
+    
+}
+.eatsoutput {
+    background-image: url(see.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid black;
+    width:1500px;
+    margin:auto;
+    color:snow;
+    
+}
+.seeoutput {
+    background-image: url(ground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid black;
+    width:1500px;
+    margin:auto;
+}
+.dooutput {
+    background-image: url(see.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width:1500px;
+    margin:auto;
 }
 
