@@ -18,15 +18,24 @@
 
 <div class="navbar">
   <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
-  <a href="#"><i class="fas fa-hamburger"></i> Places to Eat</a> 
-  <a href="#"><i class="fas fa-building"></i> Places to See</a> 
-  <a href="#"><i class="fas fa-map-marked-alt"></i> Things to do</a>
-   <a href="#"><i class="fas fa-taxi"></i>Getting Around</a>
+  <a href="placesToEat.html"><i class="fas fa-hamburger"></i> Places to Eat</a> 
+  <a href="placestoSee.html"><i class="fas fa-building"></i> Places to See</a> 
+  <a href="thingsToDo.html"><i class="fas fa-map-marked-alt"></i> Things to do</a>
+   <a href="gettingAround.html"><i class="fas fa-taxi"></i>Getting Around</a>
 </div >
 <div class = "pagetitle">
   <h3>Places to Eat</h3>
 </div>
-<div id = "eatsoutput">
+    <div class="dropdown">
+      <button onclick="dropDownFunc()" class="dropbtn">Sort By</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a onclick="function1()">Ratings High to Low</a>
+        <a onclick="function2()">Ratings Low to High</a>
+        <a onclick="function3()">Review Count High to Low</a>
+        <a onclick="function4()">Review Count Low to High</a>
+      </div>
+    </div>
+<div class = "eatsoutput">
   </div>
         
     </body>

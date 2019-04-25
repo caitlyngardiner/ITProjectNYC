@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <script type="text/javascript" src="resources/jquery-1.4.3.min.js"></script>
+        <script type="text/javascript" src="itinerary.js"></script>
+
+         <link rel="stylesheet" href="resources/design.css">
+    </head>
+    <style>
+
+</style>
+    <body>
+        <div class="header">
+            <ul style="list-style-type:none;">
+              <li><a href="my_itinerary.html"> My Itinerary</a></li>
+              <li>Contact Us</li>
+            </ul>
+            <h1> New York City Style</h1> <br>
+            <h2> Everything you need to know before visiting</h2>
+            
+        </div>
+
+<div class="navbar">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fas fa-hamburger"></i> Places to Eat</a>
+  <a href="#"><i class="fas fa-building"></i> Places to See</a>
+  <a href="#"><i class="fas fa-map-marked-alt"></i> Things to do</a>
+   <a href="#"><i class="fas fa-taxi"></i>Getting Around</a>
+</div >
+<div class = "pagetitle">
+  <h3>My Itinerary</h3>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <img id="drag1" src="resources/background.jpeg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+</div>
+    </body>
+</html>

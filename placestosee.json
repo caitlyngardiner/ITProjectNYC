@@ -1,0 +1,42 @@
+{
+    "items": [
+        {
+            "name": "Empire State Building",
+            "image_url": "https://d12dkjq56sjcos.cloudfront.net/pub/media/catalog/product/cache/d9fe7781ddb2422361b5e0fbe1b7086d/e/s/esb_attr.jpg"
+        },
+
+        {
+            "name": "Brooklyn Bridge",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Brooklyn_Bridge_Postdlf.jpg/330px-Brooklyn_Bridge_Postdlf.jpg"
+        },
+        {
+            "name": "Times Square",
+            "image_url": "https://imgs.6sqft.com/wp-content/uploads/2018/02/20105946/TimesSquare_bright.jpg"
+        },
+        {
+            "name": "Statue of Liberty",
+            "image_url": "https://www.ytravelblog.com/wp-content/uploads/2018/07/statue-of-liberty-cruise-6.jpg"
+        },
+        {
+            "name": "9/11 Memorial & Museum",
+            "image_url": "https://res.cloudinary.com/simpleview/image/upload/crm/newyorkstate/9-11-memorial-03-marley-white_08304459-fd51-e9bc-1df612407cbe64fb.jpg"
+        },
+        {
+            "name": "Circle Line Sightseeing Cruises.",
+            "image_url": "https://www.nycgo.com/images/venues/2095/circlelinecruises_laurastancarone_3_copy__x_large.jpg"
+        },
+        {
+            "name": "Top of the Rock Observation Deck",
+            "image_url": "https://www.newyorksightseeing.com/media/catalog/product/cache/29/thumbnail/9df78eab33525d08d6e5fb8d27136e95/t/o/top_of_rock_2.jpg"
+        },
+        {
+            "name": "Ellis Island Immigration Museum",
+            "image_url": "https://www.statueoflibertytickets.com/Ellis-Island/Great-Hall-Ellis.jpg"
+        },
+        {
+            "name": "Central Park",
+            "image_url": "https://www.greenworld.nyc/wp-content/uploads/2016/10/blog-central-park-overview.jpg"
+        }
+
+    ]
+}
